@@ -15,6 +15,15 @@ namespace COMP123__S2019_Inheritance
             person.Talks();
             Console.WriteLine("\n");
 
+            Console.WriteLine("\n");
+            Student student = new Student("Mubarrat", 18, "300234533");
+            student.Studies();
+            student.Talks();
+
+            Console.WriteLine("\n");
+
+
+
         }
     }
 }
