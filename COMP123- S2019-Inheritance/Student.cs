@@ -8,9 +8,9 @@ namespace COMP123__S2019_Inheritance
 {/// <summary>
 /// this is the student class
 /// </summary>
-    class Student : Person
+   public  class Student : Person
     {
-        // private instance variables
+        // private instance variables (Fields)
         private string _studentID;
         
         // public properties

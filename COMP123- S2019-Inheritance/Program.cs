@@ -16,12 +16,18 @@ namespace COMP123__S2019_Inheritance
             Console.WriteLine("\n");
 
             Console.WriteLine("\n");
-            Student student = new Student("Mubarrat", 18, "300234533");
+            Student student = new Student("Mubarrat", 18, "3002345");
             student.Studies();
             student.Talks();
 
             Console.WriteLine("\n");
 
+            DomesticStudent domestic = new DomesticStudent("Mahrus", 25, "1223344ABC");
+            domestic.Studies();
+            domestic.Talks();
+            //domestic.SetDomesticAddress();
+
+            Console.WriteLine("\n");
 
 
         }

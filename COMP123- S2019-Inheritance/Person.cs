@@ -8,7 +8,7 @@ namespace COMP123__S2019_Inheritance
 {/// <summary>
 /// this is the person class
 /// </summary>
-    class Person
+   public class Person
     {
         //private instance variables
         private string _name;
@@ -40,7 +40,6 @@ namespace COMP123__S2019_Inheritance
         /// <summary>
         /// this is the constructor for the Person class
         /// it takes 2 arguments - name (string) and age (int)
-        /// 
         /// </summary>
         /// <param name="name"></param>
         /// <param name="age"></param>
